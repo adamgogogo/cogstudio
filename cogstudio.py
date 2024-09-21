@@ -781,4 +781,4 @@ with gr.Blocks(css=css) as demo:
     send_to_extendvid_button4.click(send_to_extendvid, inputs=[video_output4], outputs=[video_to_extend, tabs])
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
